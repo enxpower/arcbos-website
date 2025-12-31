@@ -302,3 +302,6 @@ a:hover{ color:var(--accent); }
 .next-step .section-kicker{
   color:var(--muted);
 }
+.section.section-muted{
+  background:var(--bg);
+}
