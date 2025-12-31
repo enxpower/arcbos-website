@@ -184,6 +184,10 @@
   color:var(--muted);
 }
 
+/* Ensure both fill-based and stroke-based SVGs follow the same color */
+.footer-icon svg path{ fill:currentColor; }
+.footer-icon svg [stroke]{ stroke:currentColor; }
+
 .footer-icon:hover svg{ color:var(--text); }
 
 .footer-note{
