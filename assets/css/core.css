@@ -270,6 +270,24 @@ a:hover{ color:var(--accent); }
   margin:0;
 }
 
+.next-step,
+.pilot-banner,
+.pilot-strip,
+.pilot-framework{
+  background:transparent;
+}
+
+.next-step{
+  border-top:1px solid var(--line);
+  padding-top:72px;
+  padding-bottom:40px;
+}
+
+.next-step .kicker,
+.next-step .section-kicker{
+  color:var(--muted);
+}
+
 @media (max-width: 980px){
   h1{ font-size:44px; }
   .hero-grid{ grid-template-columns: 1fr; }
@@ -283,20 +301,5 @@ a:hover{ color:var(--accent); }
   .hero, .page-hero{ min-height:320px; padding:56px 0; }
   .section{ padding:56px 0; }
   .cards-4{ grid-template-columns: 1fr; }
-}
-.next-step,
-.pilot-banner,
-.pilot-strip,
-.pilot-framework{
-  background:transparent;
-}
-
-.next-step{
-  border-top:1px solid var(--line);
-  padding-top:72px;
-}
-
-.next-step .kicker,
-.next-step .section-kicker{
-  color:var(--muted);
+  .next-step{ padding-top:56px; padding-bottom:28px; }
 }
