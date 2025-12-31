@@ -171,7 +171,7 @@
   padding:0 10px;
   border:1px solid transparent;
   border-radius:4px;
-  color:var(--text);
+  color:var(--muted);
   font-size:13px;
   font-weight:600;
   letter-spacing:0.02em;
@@ -181,14 +181,20 @@
   display:block;
   width:18px;
   height:18px;
-  color:var(--muted);
 }
 
-/* Ensure both fill-based and stroke-based SVGs follow the same color */
-.footer-icon svg path{ fill:currentColor; }
-.footer-icon svg [stroke]{ stroke:currentColor; }
+.footer-icon svg [stroke]{
+  stroke:currentColor;
+}
 
-.footer-icon:hover svg{ color:var(--text); }
+.footer-icon:hover{
+  color:var(--text);
+}
+
+.footer-icon .icon-li,
+.footer-icon .icon-li path{
+  fill:currentColor;
+}
 
 .footer-note{
   margin:14px 0 0;
