@@ -284,3 +284,19 @@ a:hover{ color:var(--accent); }
   .section{ padding:56px 0; }
   .cards-4{ grid-template-columns: 1fr; }
 }
+.next-step,
+.pilot-banner,
+.pilot-strip,
+.pilot-framework{
+  background:transparent;
+}
+
+.next-step{
+  border-top:1px solid var(--line);
+  padding-top:72px;
+}
+
+.next-step .kicker,
+.next-step .section-kicker{
+  color:var(--muted);
+}
