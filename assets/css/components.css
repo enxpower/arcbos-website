@@ -83,13 +83,14 @@
   background:var(--surface);
   border-top:1px solid var(--line);
   color:var(--text);
+  box-sizing:border-box;
 }
 
 .footer-inner{
   max-width:var(--maxw);
   margin:0 auto;
   height:100%;
-  padding:32px var(--pad) 20px;
+  padding:32px var(--pad) 28px;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -187,10 +188,14 @@
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding-top:14px;
+  padding-top:16px;
   border-top:1px solid var(--line);
   color:var(--muted);
   font-size:13px;
+}
+
+.footer-bottom > *{
+  color:inherit;
 }
 
 .footer-legal{
