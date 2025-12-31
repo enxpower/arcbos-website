@@ -285,15 +285,20 @@ a:hover{ color:var(--accent); }
   .cards-4{ grid-template-columns: 1fr; }
 }
 
+/* Next step: keep it in main-content white, above gray footer */
 .next-step,
 .pilot-banner,
 .pilot-strip,
 .pilot-framework{
-  background:transparent;
+  background:var(--bg);
 }
 
 .next-step{
   border-top:1px solid var(--line);
-  padding-top:72px;
-  padding-bottom:56px;
+  padding:64px 0;
+}
+
+.next-step .kicker,
+.next-step .section-kicker{
+  color:var(--muted);
 }
