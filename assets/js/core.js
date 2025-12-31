@@ -18,7 +18,7 @@
 
   function setYear() {
     const yearEl = document.getElementById('footer-year');
-    if (yearEl) yearEl.textContent = `© ${new Date().getFullYear()}`;
+    if (yearEl) yearEl.textContent = String(new Date().getFullYear());
   }
 
   if (document.readyState === 'loading') {
